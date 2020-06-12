@@ -1,0 +1,122 @@
+<nav id="navbar">
+    <header>JavaScript Documentation</header>
+    <ul>
+      <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+      <li><a class="nav-link" href="#Prerequisites">Prerequisites</a></li>
+      <li><a class="nav-link" href="#Difference_between_JavaScript_and_Java">Difference between JavaScript and Java</a></li>
+      <li><a class="nav-link" href="#Variables">Variables </a></li>
+      <li><a class="nav-link" href="#Functions_&_Methods">Functions & Methods</a></li>
+      <li><a class="nav-link" href="#Reference">Reference</a></li>
+    </ul>
+  </nav>
+  
+  <main id="main-doc">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    
+    <section class="main-section" id="Introduction">
+      <header id="Introduction">Introduction </header>
+      <p>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js,
+        Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles.</p>
+    </section>
+  
+    <section class="main-section" id="Prerequisites">
+      <header id="Prerequisites">Prerequisites </header>
+      <p>This guide assumes that you have general understanding and basic background in the following:
+        <ul>
+          <li>A general understanding of the Internet and the World Wide Web</li>
+          <li>Familiarity with CSS and HTML</li>
+          <li>Some programming experience. If you are a beginner with no programming experience, you are encouraged to go over the tutorials on the main page for JavaScript.</li>
+        </ul>
+      </p>
+    </section>
+  
+    <section class="main-section" id="Difference_between_JavaScript_and_Java">
+      <header id="Difference_between_JavaScript_and_Java">Difference between JavaScript and Java</header>
+      <p>Both Java and JavaScript are written, assembled and executed differently, and each has dramatic differences when it comes to what it is capable of doing.</p>
+  
+      <p>Java is used in a wide range of places, including Android apps, credit card programming and in the creation of desktop applications and web enterprise applications. By comparison, JavaScript is mainly used to make web pages more interactive. It can
+        be used as an alternative to Flash, though most programmers will tell you that JavaScript is more popular and has more functionality than Flash. JavaScript can be used to do neat things like creating animation in HTML.</p>
+  
+      <p>In a nutshell, when it comes to how each language is used, Java is typically used for all server side development, while JavaScript is reserved for developing client side scripts for functions like validation and interactivity. </p>
+      <p>There are some key differences:
+        <ul>
+          <li>Java code must be compiled, and JavaScript code is all-text.</li>
+          <li>Each language requires different plug-ins.</li>
+          <li>JavaScript code is run on a browser only, while Java creates applications that run in a virtual machine or browser.</li>
+          <li>Java is an OOP (object-oriented programming) language, and JavaScript is specifically an OOP scripting language.</li>
+        </ul>
+      </p>
+    </section>
+  
+    <section class="main-section" id="Variables">
+      <header id="Variables">Variables </header>
+      <ul>
+        <li><b>Variable Declaration </b><br>Declaring a variable tells JavaScript that we want to make a new variable. The keyword "var" as in the example below is used to indicate the declaration of a variable</li>
+        <li><b>Variable Initialisation </b><br>Initilising a variable involves giving it the first value that it should hold when we create the variable.</li>
+      </ul>
+      <code id="var-code">
+        var x = 3 ;
+      </code>
+    </section>
+  
+    <section class="main-section" id="Functions_&_Methods">
+      <header id="Functions_&_Methods">Functions & Methods</header>
+      <p>The key difference between functions and methods is that functions are not invoked on objects while methods are. However, both methods and functions are used to perform some operation and can have parameters.</p>
+  
+      <p> Following example will clarify the difference between functions and methods.</p>
+      <ul>
+        <li>Method</li>
+        <code>
+    object_name.method(parameters) ; 
+        </code>
+    <p> For example,
+        <code>
+    fgImage.getHeight() ;
+  </code>
+        </p>
+        <li>Function</li>
+        <code>
+      function(parameters) ;
+    </code>
+        <p> For example,
+        <code>
+      print(x) ;
+      cube(2) ;
+    </code>
+        </p>
+        <ul>
+          <p>A function definition (also called a function declaration, or function statement) consists of the function keyword, followed by:
+  
+            <ul>
+              <li>The name of the function.</li>
+              <li>
+                A list of arguments to the function, enclosed in parentheses and separated by commas.
+              </li>
+              <li>
+                The JavaScript statements that define the function, enclosed in curly brackets, { }.
+              </li>
+            </ul>
+          </p>
+          <p>
+            The syntax is as follows:
+          </p>
+          <code> function fn_name(parameters-separated-by-commas) <br>
+  { <br>  
+    body - which specifies what the function has to do ;
+    <br>
+  return (expression) ;
+    <br>
+  }
+  </code>
+          <p> Following is an example of a function named cube using the above syntax:</p>
+          <code> function cube(x) <br>
+  { return x * x * x ;
+    }
+  </code>
+    </section>
+  
+    <section class="main-section" id="Reference">
+      <header id="Reference">Reference </header>
+      <p>For further information on Javascript, check out this <a id="reference" href="https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/">page by freeCodeCamp.</a></p>
+    </section>
+  </main>
